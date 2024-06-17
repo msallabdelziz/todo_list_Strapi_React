@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "todo_lists",
+  "info": {
+    "singularName": "todo-list",
+    "pluralName": "todo-lists",
+    "displayName": "todo_list",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "detail_tache": {
+      "type": "text"
+    },
+    "etat": {
+      "type": "enumeration",
+      "enum": [
+        "à faire",
+        "en cours",
+        "completé"
+      ]
+    }
+  }
+}
